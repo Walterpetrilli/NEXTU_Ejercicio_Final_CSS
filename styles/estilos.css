@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Dancing Script;
+  src: url("../fonts/DancingScript-regular.ttf");
+}
+
+body{
+  background-color: #02010a;
+  font-family: Dancing Script;
+}
+
+a, a:hover, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#encabezado{
+  background-color:  #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+#encabezado>div{
+  text-align: center;
+  width: 50%;
+}
+
+#encabezado #titulo{
+  text-shadow: 2px  #02010a;
+  color: white;
+  float: left;
+  text-align: left;
+  padding-left: 5%
+}
+
+#encabezado #nav{
+  float: right;
+  padding-right: 5%;
+}
+
+#encabezado #nav ul{
+  display: flex;
+  list-style: none;
+  float: right;
+  font-size: 1.5em;
+}
+#encabezado #nav li{
+  padding: 4%;
+}
