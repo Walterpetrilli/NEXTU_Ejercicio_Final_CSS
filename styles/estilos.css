@@ -85,9 +85,27 @@ img{
   width: 50%;
 }
 
+#contenido #imagenSecundaria #imagen2 img:hover{
+  -webkit-animation-name: rotacion;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  border-style: solid 2px;
+  border-color:  #82c3a6;
+}
+
 #contenido #imagenSecundaria #imagen3{
   float: right;
   width: 50%;
+}
+
+#contenido #imagenSecundaria #imagen3 img:hover{
+  -webkit-animation-name: traslacion;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  border-style: solid 2px;
+  border-color:  #82c3a6;
 }
 
 footer{
@@ -119,4 +137,22 @@ footer ul{
 
 footer li{
   padding: 3%;
+}
+
+@keyframes rotacion {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes traslacion {
+  from{
+    transform: translate(0px,0px);
+  }
+  to{
+    transform: translate(20px,-5px);
+  }
 }
