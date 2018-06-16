@@ -116,6 +116,56 @@ img{
   border-color:  #82c3a6;
 }
 
+#contenido #imagenSegundaria #imagen_efecto{
+  display: flex;
+  flex-direction: column;
+}
+
+#contenido #imagenSecundaria #fila_superior{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#contenido #imagenSecundaria #fila_superior>div{
+
+  width: 33.33%;
+}
+
+#contenido #imagenSecundaria #fila_inferior{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#contenido #imagenSecundaria #fila_inferior>div{
+  width: 33.33%;
+}
+
+#imagenEF1>img{
+  filter: blur(10px);
+}
+
+#imagenEF2>img{
+  filter: blur();
+}
+
+#imagenEF3>img{
+  filter: blur();
+}
+
+#imagenEF4>img{
+  filter: blur();
+}
+
+#imagenEF5>img{
+  filter: blur();
+}
+
+#imagenEF6>img{
+  filter: blur();
+}
+
 footer{
   background-color: #C6d5c5;
   border-radius: 0px 0px 10px 10px;
