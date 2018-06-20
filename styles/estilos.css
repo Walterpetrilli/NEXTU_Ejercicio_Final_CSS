@@ -19,6 +19,11 @@ img{
   border-color: black;
 }
 
+header{
+  -webkit-animation-name: entrada;
+  -webkit-animation-duration: 1s;
+}
+
 .contenido_principal{
   width: 900px;
   margin-left: auto;
@@ -213,6 +218,18 @@ footer li{
   }
   to{
     transform: translate(20px,-5px);
+  }
+}
+
+@keyframes entrada{
+  0% {
+      margin-top: 150%;
+  }
+  50% {
+    margin-top: -5%;
+  }
+  100% {
+    margin-top: 0%;
   }
 }
 
