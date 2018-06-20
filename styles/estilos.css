@@ -147,15 +147,15 @@ img{
 }
 
 #imagenEF2>img{
-  filter: blur();
+  filter: grayscale(100%);
 }
 
 #imagenEF3>img{
-  filter: blur();
+  filter: sepia(90%);
 }
 
 #imagenEF4>img{
-  filter: blur();
+  filter: grayscale(100%);
 }
 
 #imagenEF5>img{
@@ -163,7 +163,7 @@ img{
 }
 
 #imagenEF6>img{
-  filter: blur();
+  filter: grayscale(100%);
 }
 
 footer{
@@ -259,16 +259,25 @@ footer li{
     width: 100%;
     order: 1;
   }
+  #contenido #imagenSecundaria #imagen_efecto #imagen_efecto{
+    flex-direction: column;
+  }
+  #contenido #imagenSecundaria #imagen_efecto #fila_superior{
+    flex-direction: column;
+  }
+  #contenido #imagenSecundaria #imagen_efecto #fila_superior>div{
+    width: 100%;
+  }
+  #contenido #imagenSecundaria #imagen_efecto #fila_inferior{
+    flex-direction: column;
+  }
+  #contenido #imagenSecundaria #imagen_efecto #fila_inferior>div{
+    width: 100%;
+  }
   footer{
     flex-direction: column;
   }
   footer>div{
     width: 100%;
   }
-}
-
-@media (min-width: 900px){
-
-
-
 }
